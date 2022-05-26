@@ -2,7 +2,7 @@
 name = "web-dev"
 version = "0.1.0"
 description = ""
-authors = ["John Cook"]
+authors = ["John <cooksta120021@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
