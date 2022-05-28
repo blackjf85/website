@@ -1,0 +1,11 @@
+.about {
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #ff0000;
+    color: red;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
