@@ -1,13 +1,20 @@
-{% extends 'base.html' %} 
-{% load static %}
-{% block content %}
-<center>
-<h1>About WebDev International</h1>
-</center>
+{% extends 'base.html' %}<title>About</title>
 
-<img src="media/c.jpg" alt="webdev" style="width:100%;height:50%;">
-
-<p>
-WebDev International is a non-profit organization that provides free web development courses to students.
-</p>
+<head>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="/static/css/about.css" /></head
+>{% block content %}
+<div class="container">
+  <div class="row">
+    <h1 class="about">About WebDev International</h1>
+    <center class="body">
+      <p>
+        WebDev International is an organization that provides website creation and development services to individuals and businesses.
+      </p>
+      <p>
+        We are a team of web developers who are passionate about creating websites that are easy to use and easy to maintain.
+      </p>
+    </center>
+  </div>
+</div>
 {% endblock %}
