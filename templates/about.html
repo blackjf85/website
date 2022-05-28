@@ -1,20 +1,35 @@
 {% extends 'base.html' %}<title>About</title>
+<style type="text/css">
+  .John {
+    width: auto;
+    height: 5%%;
+  }
+</style>
 
 <head>
   {% load static %}
-  <link rel="stylesheet" type="text/css" href="/static/css/about.css" /></head
->{% block content %}
+  <link rel="stylesheet" type="text/css" href="/static/css/about.css" />
+</head>
+{% block content %}
 <div class="container">
   <div class="row">
     <h1 class="about">About WebDev International</h1>
     <center class="body">
       <p>
-        WebDev International is an organization that provides website creation and development services to individuals and businesses.
+        WebDev International is an organization that provides website creation
+        and development services to individuals and businesses.
       </p>
       <p>
-        We are a team of web developers who are passionate about creating websites that are easy to use and easy to maintain.
+        We are a team of web developers who are passionate about creating
+        websites that are easy to use and easy to maintain.
       </p>
     </center>
   </div>
+  <img
+    src="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/267749807_4753139721373670_6921756487361902554_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEA9Oyb0aRiiCK18rumsdyrUjZz0-ZgOqFSNnPT5mA6oTNBoHH5EuwN-YU7nz59eknCIBL_BDR6pdiuNAUYCM2S&_nc_ohc=whmfAFW4u4UAX-l8usy&_nc_ht=scontent-dfw5-2.xx&oh=00_AT8Q7eA6lT_vuw5eftibiFXE4yHAAyRbTfEzgvMQPxMJRA&oe=62965ABF"
+    class="John"
+  />
+  />
 </div>
+
 {% endblock %}

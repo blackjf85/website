@@ -1,0 +1,12 @@
+.header-image {
+    background-image: url(https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/284250462_102762672460267_4572876627100902996_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGaTGQ37PoMTMNXRjxZtzpbdUQoxt2Ac7B1RCjG3YBzsD3mxaQ8e3Y7FuTbjoJ0BHxliKxq5OKxu89jtbNuLq9T&_nc_ohc=M2RoVT2I2XoAX8da9M0&_nc_ht=scontent-dfw5-1.xx&oh=00_AT-d3JGtx8TzFvdPOsrlKlufRuPFbvxpR8v5IK5-_E16uQ&oe=6295CAA3);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 30%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
