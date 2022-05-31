@@ -15,7 +15,7 @@ Including another URLconf
 """
 # from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 from webdev import views as v
@@ -25,6 +25,7 @@ urlpatterns = [
     path('', v.index, name='index'),
     path('about/', v.about, name='about'),
     path('contact/', v.contact, name='contact'),
+    path('services/', v.services, name='services'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

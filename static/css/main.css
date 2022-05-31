@@ -1,0 +1,64 @@
+:root {
+    background-color: black;
+    color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.services-1 {
+    color: black;
+    border: brown double;
+    background-color: rgb(207, 207, 207);
+    width: 20%;
+    max-height: 20%;
+}
+
+.services-2 {
+    color: black;
+    border: gold double;
+    background-color: rgb(207, 207, 207);
+    width: 20%;
+    max-height: 20%;
+}
+
+.services-3 {
+    color: black;
+    border: silver double;
+    background-color: rgb(207, 207, 207);
+    width: 20%;
+    max-height: 20%;
+}
+
+a {
+    color: hsl(196.2, 100%, 35.7%);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a:hover {
+    color: #08bada;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navbar {
+    display: flexbox;
+    color: white;
+    background-color: rgb(2, 3, 65);
+    width: fit-content;
+    height: fit-content;
+}

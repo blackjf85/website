@@ -9,11 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
   </head>
 
   <body>
-    <center><img src="/media/c-1.jpg"</center>
-    /> {% include 'navbar.html' %}
+    <center class="header"><img src="/media/c-1.jpg"</center>
+    {% include 'navbar.html' %}
 
     <!--[if lt IE 7]>
       <p class="browsehappy">
